@@ -1,8 +1,8 @@
 {
   "release": {
-    "size": 37448327,
-    "notes": "Improved controller navigation from Open assistant. Removed the top-left logo. Added a gaming tip beside Settings. Activation and settings are preserved.",
-    "version": "1.0.3",
-    "sha256": "7f74f510dd6ebf3df2a7a5b692ad5566e1d5fceeddba71298f4b2a35b0a88a62"
+    "notes": "Fix Update and restart: wait for the installer to start, then verify Couchly restarts after installation. Includes the 1.0.3 controller navigation and interface changes. Activation and settings are preserved.",
+    "sha256": "3e5892b8f3c838e33c44144418b048a766c3f35c005f5e02d755b08e820a997d",
+    "size": 37449348,
+    "version": "1.0.4"
   }
 }
