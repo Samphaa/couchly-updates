@@ -1,8 +1,8 @@
 {
   "release": {
-    "version": "1.0.2",
-    "notes": "Automatic updates from Settings. Activation and preferences are preserved. Mouse highlighting works when switching sections.",
-    "sha256": "d14de1b2a535d0f24acbb374a706305a0817a51e5d855fa547be3a6ad3de387f",
-    "size": 37444988
+    "size": 37448327,
+    "notes": "Improved controller navigation from Open assistant. Removed the top-left logo. Added a gaming tip beside Settings. Activation and settings are preserved.",
+    "version": "1.0.3",
+    "sha256": "7f74f510dd6ebf3df2a7a5b692ad5566e1d5fceeddba71298f4b2a35b0a88a62"
   }
 }
