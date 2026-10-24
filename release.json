@@ -1,0 +1,8 @@
+{
+  "release": {
+    "version": "1.0.2",
+    "notes": "Automatic updates from Settings. Activation and preferences are preserved. Mouse highlighting works when switching sections.",
+    "sha256": "d14de1b2a535d0f24acbb374a706305a0817a51e5d855fa547be3a6ad3de387f",
+    "size": 37444988
+  }
+}
