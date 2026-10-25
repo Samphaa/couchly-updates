@@ -1,9 +1,9 @@
 {
   "release": {
-    "sha256": "107d4454a92c3874c3448e2dc58cb7efb998e1040f117b061e7bc56b68158147",
-    "notes": "Removed the automatic MSI Afterburner entry from Apps. Activation and settings are preserved.",
-    "version": "1.0.7",
-    "size": 37450652,
+    "version": "1.0.8",
+    "notes": "Fixed app-card mouse clicks and hover highlighting, including after switching sections and during library refreshes. Activation and settings are preserved.",
+    "size": 37451213,
+    "sha256": "0dee42218b76dfe363300b10ea683e0d47558358a89df679b28137d638bd3e5a",
     "files": [
       {
         "path": "activation-store.cjs",
@@ -25,9 +25,9 @@
       },
       {
         "path": "app.js",
-        "sha256": "e31b56c7faea3ec16ba49af3e1e715f04aba597ba053dff05c22876fd80f895f",
-        "size": 37276,
-        "packedSize": 10789
+        "sha256": "a726dc5eb5f1b6faec19a130cff4f9a12e3fdc7321b6c69607cfb2ab81aff663",
+        "size": 38943,
+        "packedSize": 11236
       },
       {
         "path": "appearance.cjs",
@@ -235,9 +235,9 @@
       },
       {
         "path": "RELEASE-NOTES.txt",
-        "sha256": "88ce64b992596db9eaed8d5ec4699dfcf95ca67dce6c1629937db1c4314bff2e",
-        "size": 119,
-        "packedSize": 120
+        "sha256": "bb8956896d135077e7c1aea5322d372f147cdde440e77b1c37084c1082e2c1af",
+        "size": 205,
+        "packedSize": 168
       },
       {
         "path": "replay-removal.cjs",
@@ -307,9 +307,9 @@
       },
       {
         "path": "style.css",
-        "sha256": "a57bb88b5f0e6d3ea73a692ab2fa6fc667c0af87ae0b63a41eb0fdc8834e4c8d",
-        "size": 34476,
-        "packedSize": 8958
+        "sha256": "f617376225686c1207975d0fb6d7708a7391b2e6447f8770e0977fa39e662aa5",
+        "size": 34718,
+        "packedSize": 9026
       },
       {
         "path": "theme-init.js",
@@ -487,7 +487,7 @@
       },
       {
         "path": "version.json",
-        "sha256": "370925d0b32a33c32c8ba1cb11284861922d9cd17b8cc291fdb95a9b9a6a56c4",
+        "sha256": "3302301c3f15e5fd9426c4c2387b0456d96760910b392ea7fc9f8e6ba4651879",
         "size": 136,
         "packedSize": 127
       },
@@ -523,9 +523,9 @@
       },
       {
         "path": "SHA256SUMS.json",
-        "sha256": "6efb3bb3d5000bddaa3890073c2eb045fb21d869ad93938e2973631cc5194176",
+        "sha256": "14047db4a5a0169ae978222a127b1630c5c9a32280c3c2ca6158c67c6b8023d8",
         "size": 7846,
-        "packedSize": 4019
+        "packedSize": 4016
       }
     ]
   }
