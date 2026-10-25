@@ -1,9 +1,9 @@
 {
   "release": {
-    "sha256": "c5e410eb6a4f5cae1bc2b224cc8833f5707fa2811daf2087a2ccf2841629268a",
-    "notes": "Automatic version label, repaired Start with Windows toggle, verified Update and restart, and downloads of missing or changed files only. Existing activation and settings are preserved.",
-    "version": "1.0.5",
-    "size": 37450729,
+    "version": "1.0.6",
+    "sha256": "280879f93f7d9ad9627d5bbd664279b3225893e1f43f674c6a32db8f574d3e00",
+    "notes": "MSI Afterburner is automatically shown in Apps with its application icon when installed. Activation and settings are preserved.",
+    "size": 37450731,
     "files": [
       {
         "path": "activation-store.cjs",
@@ -157,9 +157,9 @@
       },
       {
         "path": "installed-apps.cjs",
-        "sha256": "52e2322e3ddf78a8a79baeb13f6aeecedfff504dcb85dee6a074c852e214492d",
-        "size": 1196,
-        "packedSize": 633
+        "sha256": "3934b263ac6ed9909ae6b0223cf4c15541faa5d1c63f871d8c150d004d419ec3",
+        "size": 1418,
+        "packedSize": 718
       },
       {
         "path": "Launch.ps1",
@@ -235,9 +235,9 @@
       },
       {
         "path": "RELEASE-NOTES.txt",
-        "sha256": "9ec1e97668ff68fbb3e53edd9001ef09eeac2e008b7f263411256a8a5a319e45",
-        "size": 266,
-        "packedSize": 202
+        "sha256": "d4fd339adc458f4a2df1bb231dd5777651a5a9a2272a99558f3f096e81bb035d",
+        "size": 100,
+        "packedSize": 113
       },
       {
         "path": "replay-removal.cjs",
@@ -487,9 +487,9 @@
       },
       {
         "path": "version.json",
-        "sha256": "0c04eda8914724cc292bacbc284af29dcf1411a2bbcf4960c64b2763e9e6d9ec",
-        "size": 128,
-        "packedSize": 123
+        "sha256": "6c11989179ee4f4186c6a9a11d713beacb88ebc233b4f5ce60a6dab06d2c9bff",
+        "size": 136,
+        "packedSize": 127
       },
       {
         "path": "video-captures.cjs",
@@ -523,9 +523,9 @@
       },
       {
         "path": "SHA256SUMS.json",
-        "sha256": "bb99d4442fccfb85682616d8747354e4540e2ab54946dea832784cc1ec272d4e",
+        "sha256": "e1f14b5ed5f61e9340547c3016c6b03f20cda88ab91e4a6875f1751bbcbdf12d",
         "size": 7846,
-        "packedSize": 4018
+        "packedSize": 4019
       }
     ]
   }
