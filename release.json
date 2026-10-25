@@ -1,8 +1,532 @@
 {
   "release": {
-    "notes": "Fix Update and restart: wait for the installer to start, then verify Couchly restarts after installation. Includes the 1.0.3 controller navigation and interface changes. Activation and settings are preserved.",
-    "sha256": "3e5892b8f3c838e33c44144418b048a766c3f35c005f5e02d755b08e820a997d",
-    "size": 37449348,
-    "version": "1.0.4"
+    "sha256": "c5e410eb6a4f5cae1bc2b224cc8833f5707fa2811daf2087a2ccf2841629268a",
+    "notes": "Automatic version label, repaired Start with Windows toggle, verified Update and restart, and downloads of missing or changed files only. Existing activation and settings are preserved.",
+    "version": "1.0.5",
+    "size": 37450729,
+    "files": [
+      {
+        "path": "activation-store.cjs",
+        "sha256": "66e3d145cfeb216a4b43a6c13dee25dee66c4dcc8dd26bf0c3b37823a65f1d88",
+        "size": 658,
+        "packedSize": 417
+      },
+      {
+        "path": "app-catalog.cjs",
+        "sha256": "98eb0610da14c74d8926161cf33dd315cc00cbc67f42d8d6b447c07626f622ac",
+        "size": 914,
+        "packedSize": 496
+      },
+      {
+        "path": "app-launch.cjs",
+        "sha256": "fa1b8294b11631ce1172322722e2d31b210ecd571bb200fbe4663fa621c62cc9",
+        "size": 1221,
+        "packedSize": 648
+      },
+      {
+        "path": "app.js",
+        "sha256": "e31b56c7faea3ec16ba49af3e1e715f04aba597ba053dff05c22876fd80f895f",
+        "size": 37276,
+        "packedSize": 10789
+      },
+      {
+        "path": "appearance.cjs",
+        "sha256": "0f729006e74c95833ffa46dc56641135961989af256f2d76f77cb1b2809afa03",
+        "size": 606,
+        "packedSize": 405
+      },
+      {
+        "path": "Apply-Update.ps1",
+        "sha256": "36a24f5556ac4cf35feea93939161da9ee1f15af12afc997bdeb6e85acf8d929",
+        "size": 8935,
+        "packedSize": 3125
+      },
+      {
+        "path": "artwork.cjs",
+        "sha256": "3b8b482a68f9d4cbbc34c8211f75f3660357bbab5860ae56ab4b7254f4a4d732",
+        "size": 2709,
+        "packedSize": 1179
+      },
+      {
+        "path": "available-apps.cjs",
+        "sha256": "e5f43b3dac7ef18ab54e6f053fd6275cce4bcd760dba288ee172e5aaa9327f28",
+        "size": 290,
+        "packedSize": 224
+      },
+      {
+        "path": "boot.js",
+        "sha256": "840f025e8cf906a11c428e7768c84d8fc0899e3ac54768a3c97022e262544092",
+        "size": 2337,
+        "packedSize": 925
+      },
+      {
+        "path": "browser-launch.cjs",
+        "sha256": "853bee2ae66ab218fe45bf5769afd30f276f97844b3aff5b337bd1093a5e61b0",
+        "size": 446,
+        "packedSize": 294
+      },
+      {
+        "path": "browsers.cjs",
+        "sha256": "6d4a5693ae6a6e928df2d7f0e745155e50ad49464ba3241965e8a9a676301020",
+        "size": 3158,
+        "packedSize": 1541
+      },
+      {
+        "path": "controls.cjs",
+        "sha256": "91af8cae4c8676d8fbad5d939462cdc5482bb5b4aed6b53822f584dce0157b9c",
+        "size": 1375,
+        "packedSize": 680
+      },
+      {
+        "path": "couchly-logo.svg",
+        "sha256": "31843cfd2dd8315b75e9decd20ebff777d22a9954eaad35fb18cb040c2c91a40",
+        "size": 3287,
+        "packedSize": 1293
+      },
+      {
+        "path": "Couchly.exe",
+        "sha256": "b77b19d9e87bcb2008523caae922e4e57df3044f2cbe4c0b5508c3904f5a1d6d",
+        "size": 77824,
+        "packedSize": 72378
+      },
+      {
+        "path": "Couchly.ico",
+        "sha256": "77f95b374796eb1ca0bbb7aabf95d8fe05f611439dcc79ff938731ce7929f47e",
+        "size": 66108,
+        "packedSize": 65751
+      },
+      {
+        "path": "custom-library.cjs",
+        "sha256": "7dda62c1d83d5aaad57b37694c92526f5bf52e42077e908a6610cf35fa5cebde",
+        "size": 927,
+        "packedSize": 518
+      },
+      {
+        "path": "desktop-control.cjs",
+        "sha256": "35d7778648b30b8038a0d025bfaf088faf5e101a60d65a3606451b098f14e315",
+        "size": 4020,
+        "packedSize": 1558
+      },
+      {
+        "path": "displays.cjs",
+        "sha256": "98f5b32cd67bbe8871d58fee26fb07c3e63334335d248ddef1438947705daa12",
+        "size": 1206,
+        "packedSize": 596
+      },
+      {
+        "path": "exit.js",
+        "sha256": "b5d7143caac5aa6619ecfb339d53bf30ceaf68297edadb1d75b0cf9f9c1fc570",
+        "size": 1328,
+        "packedSize": 633
+      },
+      {
+        "path": "explorer.cjs",
+        "sha256": "80a475f9d088dd97b6342e7ed4bfa1509499c25c88ba8548b64f18e212109ec2",
+        "size": 398,
+        "packedSize": 285
+      },
+      {
+        "path": "FindNvidiaPanel.ps1",
+        "sha256": "08ea90be2e70e80e3790ee2ec3474eb3c6136036a1e79d350fd4d1fea68d41ef",
+        "size": 908,
+        "packedSize": 499
+      },
+      {
+        "path": "FindWindowsTool.ps1",
+        "sha256": "a47469f853f0e9ef5f5a9d3d4666c5f90cd3f97feb852c5494f36f7034e35efc",
+        "size": 1532,
+        "packedSize": 679
+      },
+      {
+        "path": "hbo-max.png",
+        "sha256": "ff4b31e237011fae24576d39ba286da84f40892b80944df8624850e00bf3e592",
+        "size": 866050,
+        "packedSize": 719414
+      },
+      {
+        "path": "headwear.js",
+        "sha256": "a79c804866af060daa48f782f8140a2d23426e76dcb63705f32644cd26eaf3f9",
+        "size": 1552,
+        "packedSize": 889
+      },
+      {
+        "path": "index.html",
+        "sha256": "d0c6ac31bcc358d44706acb1260d6c1f5424cd9793989aa8bcf7c00c93ec2c31",
+        "size": 17523,
+        "packedSize": 4698
+      },
+      {
+        "path": "installed-apps.cjs",
+        "sha256": "52e2322e3ddf78a8a79baeb13f6aeecedfff504dcb85dee6a074c852e214492d",
+        "size": 1196,
+        "packedSize": 633
+      },
+      {
+        "path": "Launch.ps1",
+        "sha256": "597e823281fefca9060de41cfccad924148c93e62f0cae6b4c956108504bc79b",
+        "size": 238,
+        "packedSize": 201
+      },
+      {
+        "path": "library-scan.cjs",
+        "sha256": "e0a22fca4ba04941732dc14b362ae28c7f3ae2b24da49e515256c8b395db1b3a",
+        "size": 1030,
+        "packedSize": 523
+      },
+      {
+        "path": "license-cache.cjs",
+        "sha256": "7e3d2c1e3ad087296490789bd007999e770016045ae1c668423743a6b997a0ec",
+        "size": 1959,
+        "packedSize": 1032
+      },
+      {
+        "path": "license-config.json",
+        "sha256": "3ee216bbbe32be0821ccd3b9bc9019908b6a4463a9d91b6c6f515f3e82e9afab",
+        "size": 60,
+        "packedSize": 79
+      },
+      {
+        "path": "licensing.cjs",
+        "sha256": "dbe5b0234c7823c5c5648be228caca3c7127451f1adc08949771fabdb9d766c3",
+        "size": 5252,
+        "packedSize": 2086
+      },
+      {
+        "path": "mascot.js",
+        "sha256": "d95f3a06fae149f78e5afd3df2d1e05f628f0e738d7d57c7e6975a77961371c2",
+        "size": 3746,
+        "packedSize": 1645
+      },
+      {
+        "path": "network.cjs",
+        "sha256": "47ebdb5771946753fbf481fb044e2ca711591b454ff49a27eee33190091abf01",
+        "size": 1342,
+        "packedSize": 671
+      },
+      {
+        "path": "nvidia-apps.cjs",
+        "sha256": "462435ffc308517bd540e7031386d805cd78af18dd4904e6e9404f507f49cfed",
+        "size": 2478,
+        "packedSize": 1172
+      },
+      {
+        "path": "pick-application.cjs",
+        "sha256": "e2b922a3dd46a482474d798a59044c6bd5efba1c5487c62d17ecd371ac6b6b01",
+        "size": 790,
+        "packedSize": 454
+      },
+      {
+        "path": "power-plan.cjs",
+        "sha256": "36ca83223f83add7d3e3864cc1cd9f303461f12f33c997023fed6237be237bd4",
+        "size": 2047,
+        "packedSize": 1018
+      },
+      {
+        "path": "power.cjs",
+        "sha256": "1d89e287e8d8445f038d8e889cf4fbbb004bf79758a44efbb93b1094c7f629d3",
+        "size": 539,
+        "packedSize": 326
+      },
+      {
+        "path": "PRIVACY.txt",
+        "sha256": "1d38d9aee7a0d7fbe46cb43c4d97d8aefbe4ee5b22dac75072acf25834e8a6df",
+        "size": 1930,
+        "packedSize": 954
+      },
+      {
+        "path": "RELEASE-NOTES.txt",
+        "sha256": "9ec1e97668ff68fbb3e53edd9001ef09eeac2e008b7f263411256a8a5a319e45",
+        "size": 266,
+        "packedSize": 202
+      },
+      {
+        "path": "replay-removal.cjs",
+        "sha256": "8f4b6c71f9486394d18654d2fe6959bf6f57b57e3c5c02bc40371c9c9f9d08cc",
+        "size": 1741,
+        "packedSize": 921
+      },
+      {
+        "path": "resolution.cjs",
+        "sha256": "d527929c5fca2fb1004e1bc9900c038e74c3b14670718434cfadd284646cc655",
+        "size": 2120,
+        "packedSize": 1002
+      },
+      {
+        "path": "runtime/NODE-LICENSE.txt",
+        "sha256": "148eacf7863ef4329224a29398623077200a27194aa075569faf4a0a85566ca5",
+        "size": 157606,
+        "packedSize": 24305
+      },
+      {
+        "path": "runtime/node.exe",
+        "sha256": "3602f2bb1a10f2cbab4c36886218a33c1ab3db87290e73b033c46c77147d0237",
+        "size": 92825416,
+        "packedSize": 35569184
+      },
+      {
+        "path": "sensors.cjs",
+        "sha256": "48ca87e23535277e736459597a601aae309b856ca76cc4bca12717649ccfcb28",
+        "size": 1642,
+        "packedSize": 845
+      },
+      {
+        "path": "server.cjs",
+        "sha256": "5a717c5c7479e282ee0f22b3ed673f2ac98f80df9de7f5e67670cff4ae6c3b5c",
+        "size": 15946,
+        "packedSize": 5020
+      },
+      {
+        "path": "share-recall.cjs",
+        "sha256": "0d3fdbb38144fe38543b4044babb1783b6af4c1e92b6a5675aa4530043cbdc16",
+        "size": 553,
+        "packedSize": 329
+      },
+      {
+        "path": "Start-Couchly.cmd",
+        "sha256": "2ffa5a1f728a49c547370c08d848244b1fd3165f691792062bfb20990a042143",
+        "size": 40,
+        "packedSize": 60
+      },
+      {
+        "path": "START-HERE.txt",
+        "sha256": "fb1c43077c98f1db4fe339419c7eaf204212f16dec1694a14d0d4edd61c331aa",
+        "size": 5563,
+        "packedSize": 2671
+      },
+      {
+        "path": "startup.cjs",
+        "sha256": "4eb9c7176fe7287c6c06b5e5d3bbf26bf9d6fda5b9d4cdaec6f3d75fe41d01a9",
+        "size": 1061,
+        "packedSize": 577
+      },
+      {
+        "path": "steam.cjs",
+        "sha256": "dcbe05bb241858c664b2e2c6a8d0a0111d028ea512019903ba014763c72e9a0e",
+        "size": 5591,
+        "packedSize": 2220
+      },
+      {
+        "path": "style.css",
+        "sha256": "a57bb88b5f0e6d3ea73a692ab2fa6fc667c0af87ae0b63a41eb0fdc8834e4c8d",
+        "size": 34476,
+        "packedSize": 8958
+      },
+      {
+        "path": "theme-init.js",
+        "sha256": "e86ce1b2b7eaff06cd130950071347fde3b9897930d8687c5312ce8abf8ab4be",
+        "size": 197,
+        "packedSize": 148
+      },
+      {
+        "path": "THIRD-PARTY-NOTICES.txt",
+        "sha256": "ed1cb38320dd6360b10574e4635a3305632da56e21465a5906ac49fc8b588dc3",
+        "size": 354,
+        "packedSize": 263
+      },
+      {
+        "path": "tools/AppIcon.exe",
+        "sha256": "4bfe6136d61568df261b579f49142c8cfbe0764327cd64e7a73288e237a2a2b3",
+        "size": 4608,
+        "packedSize": 1789
+      },
+      {
+        "path": "tools/AppLauncher.exe",
+        "sha256": "3748e35c7be45eb178607c3114f16951171b706ca8892d46c059624c5203703d",
+        "size": 17408,
+        "packedSize": 8334
+      },
+      {
+        "path": "tools/BrowserLauncher.exe",
+        "sha256": "24bc2169c7d7222c6d92b76fb200ae89cca86916077ed9afeb7924ed809d19bd",
+        "size": 14336,
+        "packedSize": 7048
+      },
+      {
+        "path": "tools/controller/ControllerBridge-Couchly.exe",
+        "sha256": "9088e12ce2517e7c6d7bb00ae3153cc93b85663417476247ae39cc624abc2565",
+        "size": 31744,
+        "packedSize": 15933
+      },
+      {
+        "path": "tools/controller/README-PS4.txt",
+        "sha256": "4581d9a7280227b1b6d618e7c8f4138f38f946759f1ef3086bffbc67cb4d96d4",
+        "size": 1716,
+        "packedSize": 977
+      },
+      {
+        "path": "tools/controller/README-SDL.txt",
+        "sha256": "f17d8919136f9627468b4dffbd7bddd188ef2aaa8ed21914d2107d1c759e99d7",
+        "size": 433,
+        "packedSize": 276
+      },
+      {
+        "path": "tools/controller/SDL2-LICENSE.txt",
+        "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127",
+        "size": 884,
+        "packedSize": 496
+      },
+      {
+        "path": "tools/controller/SDL2.dll",
+        "sha256": "d6c3e29884d1bf0d35ea10f5e39e4fd4ac1681dc5c7e6eaa792fa78c79c2506b",
+        "size": 1586176,
+        "packedSize": 627413
+      },
+      {
+        "path": "tools/CouchlyForeground.cs",
+        "sha256": "7718b7cfd4b3edc067c2404b32f3462fc6ea8ba3fa32ac1669537a1ae7473b9e",
+        "size": 1210,
+        "packedSize": 596
+      },
+      {
+        "path": "tools/CouchlyForeground.exe",
+        "sha256": "a425e6baf5ac7b395323eb86a829c2dbf8a80d7b5b80441602c7db381cc31ede",
+        "size": 4608,
+        "packedSize": 1972
+      },
+      {
+        "path": "tools/CouchlyRecall.cs",
+        "sha256": "88505bacbe91e522585b003f5129afb7b224c03dd9f1f237d50f9ab62c01698b",
+        "size": 5082,
+        "packedSize": 1623
+      },
+      {
+        "path": "tools/CouchlyRecall.exe",
+        "sha256": "7dbf2574a8e4602fddc6da6eb4d514119076c99f253a73744fe716dc294358da",
+        "size": 7680,
+        "packedSize": 3584
+      },
+      {
+        "path": "tools/CursorFallback.cs",
+        "sha256": "607e3fb62a56b5855ee31e21c8136315f3c912af34b7f18cb682fd25d31d0531",
+        "size": 3820,
+        "packedSize": 1408
+      },
+      {
+        "path": "tools/CursorFallback.exe",
+        "sha256": "63bb5ae93bf07b74413e0946ab2f1f89855a7d42c073cecf6608f6795c80d8a0",
+        "size": 7168,
+        "packedSize": 3421
+      },
+      {
+        "path": "tools/DisplayWindow.exe",
+        "sha256": "a041330fa33a84656824fee426851ef3e2ec39822cb9ee58ade99593bbcaeb90",
+        "size": 15872,
+        "packedSize": 7535
+      },
+      {
+        "path": "tools/ExplorerLauncher.exe",
+        "sha256": "63c4e1b4f33fc7ad7a91289b397ef17bb0593f62c380d44a2bfa19409a0a6462",
+        "size": 11776,
+        "packedSize": 5936
+      },
+      {
+        "path": "tools/NetworkStats.exe",
+        "sha256": "f09b80d59178deae2adff4658f8c4cd94ab0e2f6e3b358686d98d7b92df644f5",
+        "size": 7680,
+        "packedSize": 3470
+      },
+      {
+        "path": "tools/PickApplication.exe",
+        "sha256": "bd61d1e1c9a3ca8e83e9fab5dc0701eead37167fed3a3eef69cfe84f9fa03b0c",
+        "size": 6656,
+        "packedSize": 3140
+      },
+      {
+        "path": "tools/Resolution.exe",
+        "sha256": "55c1f60ed4d81746ab055a8c7288384d9c4488d32630eff62a8082e2168bdf26",
+        "size": 11776,
+        "packedSize": 5497
+      },
+      {
+        "path": "tools/SettingsLauncher.exe",
+        "sha256": "ea0ce52241ad6bbe99d97faf65db5f2e070b4b72f7217d2b37213d8c0da7e936",
+        "size": 13824,
+        "packedSize": 6570
+      },
+      {
+        "path": "tools/StoreAppLauncher.exe",
+        "sha256": "342ff80c19c144fbff94ce9e197c1b9aaa9687979bcd33c308f2a367a405b039",
+        "size": 11776,
+        "packedSize": 5989
+      },
+      {
+        "path": "tools/TaskbarIcon.exe",
+        "sha256": "1494a579d4e4a4f4d8d84c59260e253684d5d1d658fa2d707053be4490c8d836",
+        "size": 8704,
+        "packedSize": 4439
+      },
+      {
+        "path": "update-files.cjs",
+        "sha256": "d9c9e02e038a9ad65700c83de9af8c356d061097933c163342cd38c2c3ff7d42",
+        "size": 3380,
+        "packedSize": 1453
+      },
+      {
+        "path": "update-link.cjs",
+        "sha256": "692641c2658a855197da3284abf6fe16ee031bee7aa3996c505bf4a1f7c1c680",
+        "size": 913,
+        "packedSize": 589
+      },
+      {
+        "path": "update-protocol.cjs",
+        "sha256": "af92b14336336dd4c0d1de11d3fb7f5ff4a1a5fee439f71b34c86dd01fa47590",
+        "size": 894,
+        "packedSize": 547
+      },
+      {
+        "path": "updates-config.json",
+        "sha256": "b8997ddea1172bebeeb2477fbbf62b5e31a3adf37d1039177cf079ebf56b39a3",
+        "size": 109,
+        "packedSize": 104
+      },
+      {
+        "path": "updates.cjs",
+        "sha256": "0003ed4e9a79a48b1f0ae01c046ea99b8eb9d5ae8d9331bf14203a8dbf0db2b8",
+        "size": 7461,
+        "packedSize": 2899
+      },
+      {
+        "path": "version.json",
+        "sha256": "0c04eda8914724cc292bacbc284af29dcf1411a2bbcf4960c64b2763e9e6d9ec",
+        "size": 128,
+        "packedSize": 123
+      },
+      {
+        "path": "video-captures.cjs",
+        "sha256": "c13639b849da796e1246d5d225c878ca69fc6e35844b456c67b26f5efb0114b6",
+        "size": 3091,
+        "packedSize": 1598
+      },
+      {
+        "path": "VIDEO-CAPTURES.txt",
+        "sha256": "83a697b7ea90d04c36a70f604dd05954c42723f07971a8e3dcd295fb2f78a8f4",
+        "size": 1568,
+        "packedSize": 867
+      },
+      {
+        "path": "whatsapp.cjs",
+        "sha256": "0bfe4d577dc1079ec1fc70ab4d2edf78bb29f8200d24e5226b734a45aa92bbf0",
+        "size": 2346,
+        "packedSize": 1148
+      },
+      {
+        "path": "windows-tools.cjs",
+        "sha256": "d8ad17e4f63cfb566b567d2b910e31541345a02b511003ec6d7ac4e92f799c99",
+        "size": 2218,
+        "packedSize": 1030
+      },
+      {
+        "path": "WindowsStartup.ps1",
+        "sha256": "8f3be57ed3a2b088afe311ba5f1b6669ad6232b0a6f73935851571ff5d878dd0",
+        "size": 2758,
+        "packedSize": 1193
+      },
+      {
+        "path": "SHA256SUMS.json",
+        "sha256": "bb99d4442fccfb85682616d8747354e4540e2ab54946dea832784cc1ec272d4e",
+        "size": 7846,
+        "packedSize": 4018
+      }
+    ]
   }
 }
