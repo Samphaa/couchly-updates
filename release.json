@@ -1,9 +1,9 @@
 {
   "release": {
-    "version": "1.0.6",
-    "sha256": "280879f93f7d9ad9627d5bbd664279b3225893e1f43f674c6a32db8f574d3e00",
-    "notes": "MSI Afterburner is automatically shown in Apps with its application icon when installed. Activation and settings are preserved.",
-    "size": 37450731,
+    "sha256": "107d4454a92c3874c3448e2dc58cb7efb998e1040f117b061e7bc56b68158147",
+    "notes": "Removed the automatic MSI Afterburner entry from Apps. Activation and settings are preserved.",
+    "version": "1.0.7",
+    "size": 37450652,
     "files": [
       {
         "path": "activation-store.cjs",
@@ -157,9 +157,9 @@
       },
       {
         "path": "installed-apps.cjs",
-        "sha256": "3934b263ac6ed9909ae6b0223cf4c15541faa5d1c63f871d8c150d004d419ec3",
-        "size": 1418,
-        "packedSize": 718
+        "sha256": "52e2322e3ddf78a8a79baeb13f6aeecedfff504dcb85dee6a074c852e214492d",
+        "size": 1196,
+        "packedSize": 633
       },
       {
         "path": "Launch.ps1",
@@ -235,9 +235,9 @@
       },
       {
         "path": "RELEASE-NOTES.txt",
-        "sha256": "d4fd339adc458f4a2df1bb231dd5777651a5a9a2272a99558f3f096e81bb035d",
-        "size": 100,
-        "packedSize": 113
+        "sha256": "88ce64b992596db9eaed8d5ec4699dfcf95ca67dce6c1629937db1c4314bff2e",
+        "size": 119,
+        "packedSize": 120
       },
       {
         "path": "replay-removal.cjs",
@@ -487,7 +487,7 @@
       },
       {
         "path": "version.json",
-        "sha256": "6c11989179ee4f4186c6a9a11d713beacb88ebc233b4f5ce60a6dab06d2c9bff",
+        "sha256": "370925d0b32a33c32c8ba1cb11284861922d9cd17b8cc291fdb95a9b9a6a56c4",
         "size": 136,
         "packedSize": 127
       },
@@ -523,7 +523,7 @@
       },
       {
         "path": "SHA256SUMS.json",
-        "sha256": "e1f14b5ed5f61e9340547c3016c6b03f20cda88ab91e4a6875f1751bbcbdf12d",
+        "sha256": "6efb3bb3d5000bddaa3890073c2eb045fb21d869ad93938e2973631cc5194176",
         "size": 7846,
         "packedSize": 4019
       }
