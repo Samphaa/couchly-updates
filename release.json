@@ -1,9 +1,9 @@
 {
   "release": {
-    "sha256": "fd6bb32b69e727a1d12c3c98d562f1a68e8878e0f2c9e51162db718133cae7ce",
-    "notes": "New Home start page with six favourite apps. Choose an empty slot to add an app; use Edit Home or controller square to change favourites. Choices, activation and settings are saved.",
-    "size": 37452967,
-    "version": "1.0.9",
+    "notes": "Removed the Home section. Games is the first page again. Mouse hover and click fixes, saved settings and activation are preserved.",
+    "sha256": "ce544c7e2ad212b64593389bd8542dfa9bc6f1f0f72ab4e6480db9fa228af6c4",
+    "size": 37451197,
+    "version": "1.0.10",
     "files": [
       {
         "path": "activation-store.cjs",
@@ -25,9 +25,9 @@
       },
       {
         "path": "app.js",
-        "sha256": "e6cf9816cdae64ad460918618911e7f270158eeeafce9cf2acaa97ac2f3f0409",
-        "size": 41435,
-        "packedSize": 11879
+        "sha256": "a726dc5eb5f1b6faec19a130cff4f9a12e3fdc7321b6c69607cfb2ab81aff663",
+        "size": 38943,
+        "packedSize": 11236
       },
       {
         "path": "appearance.cjs",
@@ -150,16 +150,10 @@
         "packedSize": 889
       },
       {
-        "path": "home.cjs",
-        "sha256": "31f6df585dc3699d82633b7ad5c72bffe8e8c4471724c4e392e87ae8ba59b6e3",
-        "size": 1327,
-        "packedSize": 733
-      },
-      {
         "path": "index.html",
-        "sha256": "ef8819e50efe8b7776937f42d228cef737db1676f7d3de959e0406b12efa8a98",
-        "size": 17977,
-        "packedSize": 4801
+        "sha256": "d0c6ac31bcc358d44706acb1260d6c1f5424cd9793989aa8bcf7c00c93ec2c31",
+        "size": 17523,
+        "packedSize": 4698
       },
       {
         "path": "installed-apps.cjs",
@@ -241,9 +235,9 @@
       },
       {
         "path": "RELEASE-NOTES.txt",
-        "sha256": "9b186869cc65062dc00a776eb74fee324df7f849ea956fecc115792be6149aea",
-        "size": 239,
-        "packedSize": 190
+        "sha256": "d43568ee58141be025166d7049801f9ae7bf82e02219e5da49d1ed80fab93a36",
+        "size": 181,
+        "packedSize": 152
       },
       {
         "path": "replay-removal.cjs",
@@ -277,9 +271,9 @@
       },
       {
         "path": "server.cjs",
-        "sha256": "cea466aeae108c4dad313f324444bc71621260e64d53e9233d1f387c08ae0a90",
-        "size": 16004,
-        "packedSize": 5043
+        "sha256": "5a717c5c7479e282ee0f22b3ed673f2ac98f80df9de7f5e67670cff4ae6c3b5c",
+        "size": 15946,
+        "packedSize": 5020
       },
       {
         "path": "share-recall.cjs",
@@ -313,9 +307,9 @@
       },
       {
         "path": "style.css",
-        "sha256": "09d97d2ed7542749b2301a4b35178f82b35aa3d982b7cbb9c5f39c9684495b6d",
-        "size": 35115,
-        "packedSize": 9121
+        "sha256": "f617376225686c1207975d0fb6d7708a7391b2e6447f8770e0977fa39e662aa5",
+        "size": 34718,
+        "packedSize": 9026
       },
       {
         "path": "theme-init.js",
@@ -493,9 +487,9 @@
       },
       {
         "path": "version.json",
-        "sha256": "d13a6409fd0650e495c3a012c73779f1e056e9ecdb5823f5abe76236cf842150",
-        "size": 136,
-        "packedSize": 127
+        "sha256": "3010d5b5581375cabdfc6c2d6bb21ba91bd43aab21d3fa0633053387f398775d",
+        "size": 130,
+        "packedSize": 125
       },
       {
         "path": "video-captures.cjs",
@@ -529,9 +523,9 @@
       },
       {
         "path": "SHA256SUMS.json",
-        "sha256": "035e89e9ff93e882e5b412e1a038247110f14eebae375cfb6bc7a00da6a99a7d",
-        "size": 7928,
-        "packedSize": 4058
+        "sha256": "660d045e395fd2a5ae0b61971fe20dbc351ae3a527351267e61c934dc66bdecb",
+        "size": 7846,
+        "packedSize": 4019
       }
     ]
   }
