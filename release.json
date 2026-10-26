@@ -1,9 +1,9 @@
 {
   "release": {
-    "sha256": "34d05ab7a7195c908f82ef9eca21e4ad7f943a6ee2e929e32205d626df85c3ef",
-    "version": "1.0.11",
-    "notes": "Libraries with more than six apps now scroll horizontally with six icons visible. Browse with controller left/right, arrow buttons or the mouse wheel. Settings and activation are preserved.",
-    "size": 37451999,
+    "size": 37452526,
+    "version": "1.0.12",
+    "notes": "The potato shows a speech bubble when a new update is available. It disappears after a successful update download. Automatic checks run at startup and every 15 minutes while Couchly is visible.",
+    "sha256": "d62b6825ea912d4a60efe196826aa6fa0727d2666b93d38da334fb63acb0cf2d",
     "files": [
       {
         "path": "activation-store.cjs",
@@ -25,9 +25,9 @@
       },
       {
         "path": "app.js",
-        "sha256": "da0dbdefdd010c3863067372dc716f627028640486829d6f62c8f2ad4a3ad111",
-        "size": 40771,
-        "packedSize": 11707
+        "sha256": "028ede031d1c6bac15c219090e16ebd8ddf48b6914f7f177e55cdbce5850b355",
+        "size": 41716,
+        "packedSize": 11948
       },
       {
         "path": "appearance.cjs",
@@ -151,9 +151,9 @@
       },
       {
         "path": "index.html",
-        "sha256": "51c83d370916722fc46f1de33088171b0186ed5ed67f118df2e8e3d427dca4a0",
-        "size": 17790,
-        "packedSize": 4771
+        "sha256": "b828a8f8632d8504ccdd7aa08c5eea00b6fc3db0fb2d5886ed264a7b5d1714c5",
+        "size": 17868,
+        "packedSize": 4807
       },
       {
         "path": "installed-apps.cjs",
@@ -235,9 +235,9 @@
       },
       {
         "path": "RELEASE-NOTES.txt",
-        "sha256": "adba88ec065908f10df51e0e952e339f2cb652562f730511a23a2d5a1dafd0a6",
-        "size": 233,
-        "packedSize": 184
+        "sha256": "a4e159e25d18e2c4efe04ad266b43860339c3ea7e95e183adcffae2d6e49e655",
+        "size": 294,
+        "packedSize": 215
       },
       {
         "path": "replay-removal.cjs",
@@ -307,9 +307,9 @@
       },
       {
         "path": "style.css",
-        "sha256": "9f1648e57f092489eb1b5788602364609babfd8d78accf4e4e8e8448191e027f",
-        "size": 35551,
-        "packedSize": 9248
+        "sha256": "0eecfd401e339be7302ec08651cb483db7b05a1964bf513733acf3fbeceb6ce8",
+        "size": 36552,
+        "packedSize": 9467
       },
       {
         "path": "theme-init.js",
@@ -487,7 +487,7 @@
       },
       {
         "path": "version.json",
-        "sha256": "14136fe2b5f1edce64f6ecf45d8d13ab19da828cb70ad1c8b9fdfb9d55c595ab",
+        "sha256": "6a4201a37a1a3d2d12144886f478c4db21b0fe6b73f8615b7287a6cdb4205599",
         "size": 129,
         "packedSize": 124
       },
@@ -523,9 +523,9 @@
       },
       {
         "path": "SHA256SUMS.json",
-        "sha256": "ac398180b6f31c3004e10150fc9c1364df75eac56787d5d30f252215255342b9",
+        "sha256": "e7c74fdc6524012eed018c8debfdfeaec22090a5f9b78ec9987f47f76d87b504",
         "size": 7846,
-        "packedSize": 4022
+        "packedSize": 4018
       }
     ]
   }
