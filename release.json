@@ -1,9 +1,9 @@
 {
   "release": {
-    "notes": "Removed the Home section. Games is the first page again. Mouse hover and click fixes, saved settings and activation are preserved.",
-    "sha256": "ce544c7e2ad212b64593389bd8542dfa9bc6f1f0f72ab4e6480db9fa228af6c4",
-    "size": 37451197,
-    "version": "1.0.10",
+    "sha256": "34d05ab7a7195c908f82ef9eca21e4ad7f943a6ee2e929e32205d626df85c3ef",
+    "version": "1.0.11",
+    "notes": "Libraries with more than six apps now scroll horizontally with six icons visible. Browse with controller left/right, arrow buttons or the mouse wheel. Settings and activation are preserved.",
+    "size": 37451999,
     "files": [
       {
         "path": "activation-store.cjs",
@@ -25,9 +25,9 @@
       },
       {
         "path": "app.js",
-        "sha256": "a726dc5eb5f1b6faec19a130cff4f9a12e3fdc7321b6c69607cfb2ab81aff663",
-        "size": 38943,
-        "packedSize": 11236
+        "sha256": "da0dbdefdd010c3863067372dc716f627028640486829d6f62c8f2ad4a3ad111",
+        "size": 40771,
+        "packedSize": 11707
       },
       {
         "path": "appearance.cjs",
@@ -151,9 +151,9 @@
       },
       {
         "path": "index.html",
-        "sha256": "d0c6ac31bcc358d44706acb1260d6c1f5424cd9793989aa8bcf7c00c93ec2c31",
-        "size": 17523,
-        "packedSize": 4698
+        "sha256": "51c83d370916722fc46f1de33088171b0186ed5ed67f118df2e8e3d427dca4a0",
+        "size": 17790,
+        "packedSize": 4771
       },
       {
         "path": "installed-apps.cjs",
@@ -235,9 +235,9 @@
       },
       {
         "path": "RELEASE-NOTES.txt",
-        "sha256": "d43568ee58141be025166d7049801f9ae7bf82e02219e5da49d1ed80fab93a36",
-        "size": 181,
-        "packedSize": 152
+        "sha256": "adba88ec065908f10df51e0e952e339f2cb652562f730511a23a2d5a1dafd0a6",
+        "size": 233,
+        "packedSize": 184
       },
       {
         "path": "replay-removal.cjs",
@@ -307,9 +307,9 @@
       },
       {
         "path": "style.css",
-        "sha256": "f617376225686c1207975d0fb6d7708a7391b2e6447f8770e0977fa39e662aa5",
-        "size": 34718,
-        "packedSize": 9026
+        "sha256": "9f1648e57f092489eb1b5788602364609babfd8d78accf4e4e8e8448191e027f",
+        "size": 35551,
+        "packedSize": 9248
       },
       {
         "path": "theme-init.js",
@@ -487,9 +487,9 @@
       },
       {
         "path": "version.json",
-        "sha256": "3010d5b5581375cabdfc6c2d6bb21ba91bd43aab21d3fa0633053387f398775d",
-        "size": 130,
-        "packedSize": 125
+        "sha256": "14136fe2b5f1edce64f6ecf45d8d13ab19da828cb70ad1c8b9fdfb9d55c595ab",
+        "size": 129,
+        "packedSize": 124
       },
       {
         "path": "video-captures.cjs",
@@ -523,9 +523,9 @@
       },
       {
         "path": "SHA256SUMS.json",
-        "sha256": "660d045e395fd2a5ae0b61971fe20dbc351ae3a527351267e61c934dc66bdecb",
+        "sha256": "ac398180b6f31c3004e10150fc9c1364df75eac56787d5d30f252215255342b9",
         "size": 7846,
-        "packedSize": 4019
+        "packedSize": 4022
       }
     ]
   }
