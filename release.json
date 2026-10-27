@@ -1,9 +1,9 @@
 {
   "release": {
-    "size": 37452526,
-    "version": "1.0.12",
-    "notes": "The potato shows a speech bubble when a new update is available. It disappears after a successful update download. Automatic checks run at startup and every 15 minutes while Couchly is visible.",
-    "sha256": "d62b6825ea912d4a60efe196826aa6fa0727d2666b93d38da334fb63acb0cf2d",
+    "version": "1.0.13",
+    "size": 37452616,
+    "sha256": "d3fb938fa18422729c8cfdcc6642f4cc582b238752a36ebccd9be74a6a536cfe",
+    "notes": "Streamlabs appears automatically in Apps when installed, using its own icon and the same foreground launch behavior as other apps. Existing settings and activation are preserved.",
     "files": [
       {
         "path": "activation-store.cjs",
@@ -157,9 +157,9 @@
       },
       {
         "path": "installed-apps.cjs",
-        "sha256": "52e2322e3ddf78a8a79baeb13f6aeecedfff504dcb85dee6a074c852e214492d",
-        "size": 1196,
-        "packedSize": 633
+        "sha256": "32b92f0f0b5c674d77d85838a94c8da8c31cb81c068e2dc5fb9a13a477e59348",
+        "size": 1670,
+        "packedSize": 770
       },
       {
         "path": "Launch.ps1",
@@ -235,9 +235,9 @@
       },
       {
         "path": "RELEASE-NOTES.txt",
-        "sha256": "a4e159e25d18e2c4efe04ad266b43860339c3ea7e95e183adcffae2d6e49e655",
-        "size": 294,
-        "packedSize": 215
+        "sha256": "44e1bd65aaaa5b265767bc173c74af82163e2345a4c36b522436c36dc8aa25f9",
+        "size": 211,
+        "packedSize": 169
       },
       {
         "path": "replay-removal.cjs",
@@ -487,7 +487,7 @@
       },
       {
         "path": "version.json",
-        "sha256": "6a4201a37a1a3d2d12144886f478c4db21b0fe6b73f8615b7287a6cdb4205599",
+        "sha256": "a3e1cf76d07a834f4f90d50b7173bedb0c007fc2546ac7a6affb77910a6816d2",
         "size": 129,
         "packedSize": 124
       },
@@ -523,7 +523,7 @@
       },
       {
         "path": "SHA256SUMS.json",
-        "sha256": "e7c74fdc6524012eed018c8debfdfeaec22090a5f9b78ec9987f47f76d87b504",
+        "sha256": "b430386d21352be7a7d4a19fbc275d73299986f5644a4b5edda22ccd1cdfa5ae",
         "size": 7846,
         "packedSize": 4018
       }
