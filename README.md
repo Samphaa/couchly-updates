@@ -1,6 +1,6 @@
-# Couchly updates
+# SpudPilot
 
-Official Couchly update page. In Couchly, open Settings → Check for updates → Update and restart.
+Official SpudPilot update page. In SpudPilot, open Settings → Check for updates → Update and restart.
 
 Updates download without a license check. Existing activation and settings stay saved on the same Windows account.
 
