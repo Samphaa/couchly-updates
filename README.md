@@ -1,4 +1,4 @@
-# SpudPilot
+# SpudPilot updates
 
 Official SpudPilot update page. In SpudPilot, open Settings → Check for updates → Update and restart.
 
