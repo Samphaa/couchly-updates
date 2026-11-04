@@ -1,10 +1,10 @@
 {
   "release": {
     "product": "SpudPilot",
-    "version": "1.2.85",
-    "size": 129348352,
-    "sha256": "6d09a1689953a205afe74e0cc7c06cdfbdd25046930e056b4beb1ff19c84b6cd",
-    "notes": "Adds Check for updates beside Power saver. This incremental test release requires version 1.2.84.",
+    "version": "1.2.86",
+    "size": 129348411,
+    "sha256": "1955ec547fd370df7656d2a277ad725c39685c7b0d241d436e69aae2c9eaf783",
+    "notes": "Adds the default potato logo beside the controller connection status. Downloads only changed or missing files.",
     "files": [
       {
         "path": "activation-store.cjs",
@@ -350,9 +350,9 @@
       },
       {
         "path": "index.html",
-        "sha256": "0395f0793ecab6b556de7326186dc424d7dc8270331a34ea327ef53971c3c082",
-        "size": 19221,
-        "packedSize": 5237
+        "sha256": "cd8f33906db8537d94514d2bbe3a4cf58a59c282b43e2c136411bd1fd6401b74",
+        "size": 19291,
+        "packedSize": 5246
       },
       {
         "path": "installed-apps.cjs",
@@ -440,9 +440,9 @@
       },
       {
         "path": "RELEASE-NOTES.txt",
-        "sha256": "f6624174cecd19897526cf65c402ee6f7c8a5854b625b42b883e2eb5945d49a2",
-        "size": 82,
-        "packedSize": 97
+        "sha256": "54a8f02b2046cb0858971a0f5500d601281ce3060967cc28939838f8fae87793",
+        "size": 87,
+        "packedSize": 95
       },
       {
         "path": "replay-recorder.cjs",
@@ -524,7 +524,7 @@
       },
       {
         "path": "START-HERE.txt",
-        "sha256": "8b9b0bc92d6e72d37a222d7c9df679536e53a75a6daf96951ab20905871a0941",
+        "sha256": "a8e9ddb51fd9a79fd76b11504e074e5a7cfd8f11c77b1963c8dbefba30e2b9f0",
         "size": 5639,
         "packedSize": 2711
       },
@@ -548,9 +548,9 @@
       },
       {
         "path": "style.css",
-        "sha256": "9e9d8421373d7bf868cd953b7cd96785e40aa3fb70a24749240b10be8150e4a9",
-        "size": 37117,
-        "packedSize": 9638
+        "sha256": "1067e8722765ebcdf811c15d6002b6d9286dc834bfaea63a99b14e05fe9e34d9",
+        "size": 37320,
+        "packedSize": 9685
       },
       {
         "path": "theme-init.js",
@@ -854,7 +854,7 @@
       },
       {
         "path": "version.json",
-        "sha256": "f08670ade4c29b635b354b91ee82c87197018d3be6289a539236e6ed8dba27fc",
+        "sha256": "1e4293659f71f58d3e945ff4988804f753e7f1a60670d433137d1a175f233545",
         "size": 161,
         "packedSize": 136
       },
@@ -890,9 +890,9 @@
       },
       {
         "path": "SHA256SUMS.json",
-        "sha256": "53d8861f823442212d9b3e84fce3c782885c8ac9dac22e01a3b05144dbed6b7b",
+        "sha256": "9ab73791e9a2b19a0edc659de6febd0595131606808bba3cbb0ae8aee44b94ba",
         "size": 14042,
-        "packedSize": 6791
+        "packedSize": 6793
       }
     ]
   }
