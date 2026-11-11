@@ -1,10 +1,10 @@
 {
   "release": {
     "product": "SpudPilot",
-    "version": "1.2.86",
-    "size": 129348411,
-    "sha256": "1955ec547fd370df7656d2a277ad725c39685c7b0d241d436e69aae2c9eaf783",
-    "notes": "Adds the default potato logo beside the controller connection status. Downloads only changed or missing files.",
+    "version": "1.2.110",
+    "size": 129368609,
+    "sha256": "5b0f0534820f59bc674ee3cf2a4c0f882248231d8ac5faa83af26244b1986d1e",
+    "notes": "Adds Help & controls in Settings, improves Bluetooth Share/Create hold recovery, and opens selected Apps and Media windows with Cross. Includes the latest Steam artwork, achievements, display scaling and controller navigation improvements. Updates download only changed or missing files and preserve activation and settings.",
     "files": [
       {
         "path": "activation-store.cjs",
@@ -26,9 +26,9 @@
       },
       {
         "path": "app.js",
-        "sha256": "476f464deb7a9fa67155a4daa9d9d9cfe24f5e82491b00d484d8d875e59d1c6c",
-        "size": 47192,
-        "packedSize": 13350
+        "sha256": "65d23ca7833a42a5cdf42630c9aea46d2e192f3c61e863d4268a6bedb22ee1dc",
+        "size": 47092,
+        "packedSize": 13361
       },
       {
         "path": "appearance.cjs",
@@ -40,7 +40,7 @@
         "path": "Apply-Update.ps1",
         "sha256": "5ba6da9eb14520566e1c50a34e37dd8309ce90f21e1f11672d7dcc9221ee0847",
         "size": 9798,
-        "packedSize": 3265
+        "packedSize": 3263
       },
       {
         "path": "artwork-cache.cjs",
@@ -98,9 +98,9 @@
       },
       {
         "path": "desktop-control.cjs",
-        "sha256": "1475c6fb036bb7dcff41295c587c6283b5ff96a8d934899ad82372842c907c6f",
-        "size": 4276,
-        "packedSize": 1639
+        "sha256": "c8233be9cd91a560883b1fc2a9b2702456931693e47efdd3dc0d9fd426645a41",
+        "size": 4585,
+        "packedSize": 1773
       },
       {
         "path": "displays.cjs",
@@ -130,7 +130,13 @@
         "path": "FindWindowsTool.ps1",
         "sha256": "a47469f853f0e9ef5f5a9d3d4666c5f90cd3f97feb852c5494f36f7034e35efc",
         "size": 1532,
-        "packedSize": 680
+        "packedSize": 679
+      },
+      {
+        "path": "game-preview.js",
+        "sha256": "c64113fb7e3be03018519982b8b118907ba6d46b34f0dd85a200ddf95cfa6c87",
+        "size": 4588,
+        "packedSize": 1763
       },
       {
         "path": "games/spudpilot/assets/blaster.js",
@@ -148,13 +154,13 @@
         "path": "games/spudpilot/assets/earth.js",
         "sha256": "f9bab4d1d6b28638ddcc6374d4678e9bfe02d7fa48884e657c0ba26f232c6853",
         "size": 355518,
-        "packedSize": 257846
+        "packedSize": 257744
       },
       {
         "path": "games/spudpilot/cockpit.js",
         "sha256": "04b06faa0df39c9876a73e2ac898060cdb42d4905f428f71ce60c927f991f799",
         "size": 7291,
-        "packedSize": 2965
+        "packedSize": 2963
       },
       {
         "path": "games/spudpilot/controller-input.js",
@@ -178,7 +184,7 @@
         "path": "games/spudpilot/game.js",
         "sha256": "03fa69fd40915737668f8f5e73a807d32e0b70776d93e5615157ee071e8f222d",
         "size": 46323,
-        "packedSize": 16189
+        "packedSize": 16170
       },
       {
         "path": "games/spudpilot/GUIDE.md",
@@ -214,7 +220,7 @@
         "path": "games/spudpilot/style.css",
         "sha256": "d3ce16fd2bbbfd4c02bad8d131555e8dbda5d825911a337be70aed3c11e87d87",
         "size": 14193,
-        "packedSize": 3993
+        "packedSize": 3984
       },
       {
         "path": "games/spudpilot/vendor/LICENSE.txt",
@@ -226,7 +232,7 @@
         "path": "games/spudpilot/vendor/three.min.js",
         "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
         "size": 669884,
-        "packedSize": 167719
+        "packedSize": 167238
       },
       {
         "path": "games/spudrun/collision.js",
@@ -262,7 +268,7 @@
         "path": "games/spudrun/game.js",
         "sha256": "bc2f87e5897d3ea478929c37c6a2ec3271befafb26d87aeb727837523d021a55",
         "size": 55471,
-        "packedSize": 18989
+        "packedSize": 18977
       },
       {
         "path": "games/spudrun/hangar.js",
@@ -280,7 +286,7 @@
         "path": "games/spudrun/index.html",
         "sha256": "5b76a0c67a02267eeff506e7e7fdc8b5bac7d39da83f3941ae4f34a9c082e3f4",
         "size": 3825,
-        "packedSize": 1586
+        "packedSize": 1585
       },
       {
         "path": "games/spudrun/materials-asphalt.js",
@@ -304,7 +310,7 @@
         "path": "games/spudrun/scenery.js",
         "sha256": "3897f269314ffb1bc16bd6ed0da50be0c8661183140107c394316c97e6444e60",
         "size": 11104,
-        "packedSize": 4199
+        "packedSize": 4198
       },
       {
         "path": "games/spudrun/speed-blur.js",
@@ -316,7 +322,7 @@
         "path": "games/spudrun/style.css",
         "sha256": "3c7980ae717b2e412502880d996bc66478ed8b0057f999398ffae98453cd5e45",
         "size": 9363,
-        "packedSize": 2798
+        "packedSize": 2794
       },
       {
         "path": "games/spudrun/TEXTURE-LICENSES.txt",
@@ -334,13 +340,13 @@
         "path": "games/spudrun/vendor/three.min.js",
         "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
         "size": 669884,
-        "packedSize": 167719
+        "packedSize": 167238
       },
       {
         "path": "hbo-max.png",
         "sha256": "ff4b31e237011fae24576d39ba286da84f40892b80944df8624850e00bf3e592",
         "size": 866050,
-        "packedSize": 719479
+        "packedSize": 719414
       },
       {
         "path": "headwear.js",
@@ -350,9 +356,9 @@
       },
       {
         "path": "index.html",
-        "sha256": "cd8f33906db8537d94514d2bbe3a4cf58a59c282b43e2c136411bd1fd6401b74",
-        "size": 19291,
-        "packedSize": 5246
+        "sha256": "e7cc29151028cc4f809158ea19d4e91da88677e97558880fe76e3eb67a3d8228",
+        "size": 20811,
+        "packedSize": 5695
       },
       {
         "path": "installed-apps.cjs",
@@ -365,6 +371,12 @@
         "sha256": "01630670dab3bc036085f7f1d00938bc779a0ea8078776490176606b699a93da",
         "size": 240,
         "packedSize": 202
+      },
+      {
+        "path": "layout-scale.js",
+        "sha256": "28d191a6797556975620dfb4f93c1afc473c41abc916c44f0046e8007e187581",
+        "size": 533,
+        "packedSize": 262
       },
       {
         "path": "library-scan.cjs",
@@ -392,9 +404,9 @@
       },
       {
         "path": "mascot.js",
-        "sha256": "98bdf335dfe2791118db75f2097f67af5e3722d2ff4306771b14f2864a600e80",
-        "size": 3748,
-        "packedSize": 1647
+        "sha256": "680759ccb788d178c9165b8a842c963ce398ad012c32099f887255a661701510",
+        "size": 3745,
+        "packedSize": 1646
       },
       {
         "path": "network.cjs",
@@ -407,6 +419,18 @@
         "sha256": "462435ffc308517bd540e7031386d805cd78af18dd4904e6e9404f507f49cfed",
         "size": 2478,
         "packedSize": 1172
+      },
+      {
+        "path": "open-windows.cjs",
+        "sha256": "3575fd3af3a4b3e612da01d114a239c4c5137952fe7070bdccde8a831f37c688",
+        "size": 2421,
+        "packedSize": 1094
+      },
+      {
+        "path": "open-windows.js",
+        "sha256": "ceaa2902bf9c820203289c79e91314232c779a59bfd84697e69ecdbb0455f86e",
+        "size": 6379,
+        "packedSize": 2362
       },
       {
         "path": "pick-application.cjs",
@@ -428,9 +452,9 @@
       },
       {
         "path": "PRIVACY.txt",
-        "sha256": "8087f6ee2ff95bca314be2a9ebf573b21664da9c99f84c1e9d56440f6fb11c01",
-        "size": 2202,
-        "packedSize": 1075
+        "sha256": "5cdc3705008095668f25192bfe46a925b0c7077be9ad0bb8851e6016b50a2021",
+        "size": 2412,
+        "packedSize": 1157
       },
       {
         "path": "PRODUCT-AND-REQUIREMENTS.md",
@@ -440,9 +464,9 @@
       },
       {
         "path": "RELEASE-NOTES.txt",
-        "sha256": "54a8f02b2046cb0858971a0f5500d601281ce3060967cc28939838f8fae87793",
-        "size": 87,
-        "packedSize": 95
+        "sha256": "87b4688691befde6df78ab2020c63bd61c209d279f2d909b3fa60a3ca6954a6b",
+        "size": 196,
+        "packedSize": 157
       },
       {
         "path": "replay-recorder.cjs",
@@ -472,13 +496,13 @@
         "path": "runtime/NODE-LICENSE.txt",
         "sha256": "148eacf7863ef4329224a29398623077200a27194aa075569faf4a0a85566ca5",
         "size": 157606,
-        "packedSize": 24464
+        "packedSize": 24305
       },
       {
         "path": "runtime/node.exe",
         "sha256": "3602f2bb1a10f2cbab4c36886218a33c1ab3db87290e73b033c46c77147d0237",
         "size": 92825416,
-        "packedSize": 35662779
+        "packedSize": 35569184
       },
       {
         "path": "sensors.cjs",
@@ -488,27 +512,27 @@
       },
       {
         "path": "server.cjs",
-        "sha256": "4df14e26c6ea951c29400428c81025cbb04e811e8af0c1e7f761552edbd4b619",
-        "size": 17718,
-        "packedSize": 5480
+        "sha256": "5debd9916bd9d3f81da833b6b610c7a2d8beedacb73311d9a5e665920dd6a067",
+        "size": 18726,
+        "packedSize": 5666
       },
       {
         "path": "share-recall.cjs",
-        "sha256": "0d3fdbb38144fe38543b4044babb1783b6af4c1e92b6a5675aa4530043cbdc16",
-        "size": 553,
-        "packedSize": 329
+        "sha256": "a53bf4acacb0a0a9c7fb7165e729decb2a8cfa817d6cf2e0f351e7ce5fb3bb83",
+        "size": 1214,
+        "packedSize": 530
       },
       {
         "path": "spudpilot-logo.svg",
         "sha256": "bccd7538306ce93dee1428bb0846390c44c9c3c37bcc2d8d63218a2608d8f138",
         "size": 3289,
-        "packedSize": 1301
+        "packedSize": 1299
       },
       {
         "path": "SpudPilot.exe",
         "sha256": "500628538d500c17876965ffbba2d19a9baa8debbf20b8bca750007c401d8090",
         "size": 77824,
-        "packedSize": 72337
+        "packedSize": 72331
       },
       {
         "path": "SpudPilot.ico",
@@ -524,9 +548,9 @@
       },
       {
         "path": "START-HERE.txt",
-        "sha256": "a8e9ddb51fd9a79fd76b11504e074e5a7cfd8f11c77b1963c8dbefba30e2b9f0",
-        "size": 5639,
-        "packedSize": 2711
+        "sha256": "d2573d3ea4cb7a26011aa877294e3ce018a544494b8ce71b9f8f5901ca6962a2",
+        "size": 6527,
+        "packedSize": 3080
       },
       {
         "path": "Start-SpudPilot.cmd",
@@ -542,15 +566,15 @@
       },
       {
         "path": "steam.cjs",
-        "sha256": "dcbe05bb241858c664b2e2c6a8d0a0111d028ea512019903ba014763c72e9a0e",
-        "size": 5591,
-        "packedSize": 2220
+        "sha256": "f08c75bc55e1b810a2369347f685cb7edcbdf24feff78411abd0e85105d57140",
+        "size": 8828,
+        "packedSize": 3203
       },
       {
         "path": "style.css",
-        "sha256": "1067e8722765ebcdf811c15d6002b6d9286dc834bfaea63a99b14e05fe9e34d9",
-        "size": 37320,
-        "packedSize": 9685
+        "sha256": "14a6e2d486409efd63140f4cb81668d9c77a667ec5459335d64a777e359a6817",
+        "size": 44994,
+        "packedSize": 11150
       },
       {
         "path": "theme-init.js",
@@ -568,31 +592,31 @@
         "path": "tools/AppIcon.exe",
         "sha256": "4bfe6136d61568df261b579f49142c8cfbe0764327cd64e7a73288e237a2a2b3",
         "size": 4608,
-        "packedSize": 1795
+        "packedSize": 1789
       },
       {
         "path": "tools/AppLauncher.exe",
         "sha256": "0f6b35e827d904f58f5e65f8a7d17fbe5fa72fcac0b9ba5ecaaf0d1568d279ef",
         "size": 17920,
-        "packedSize": 8352
+        "packedSize": 8347
       },
       {
         "path": "tools/BrowserLauncher.exe",
         "sha256": "04b3dcb4c408686780f207e5c0aca968e241e1f2a3050b8987513ad72413dc59",
         "size": 14336,
-        "packedSize": 7062
+        "packedSize": 7058
       },
       {
         "path": "tools/controller/ControllerBridge-SpudPilot.exe",
         "sha256": "5ce471e46020edc6f1e5306104dcdf15bad8d8974493b7a2196308e3e8480e13",
         "size": 31232,
-        "packedSize": 15794
+        "packedSize": 15789
       },
       {
         "path": "tools/controller/KeyboardLayout.dll",
         "sha256": "e3790b9cfdca32e7b0e6718b89b9f0a5a708fa0ac58a6bebce52fecf9157c292",
         "size": 6656,
-        "packedSize": 2819
+        "packedSize": 2816
       },
       {
         "path": "tools/controller/README-PS4.txt",
@@ -616,31 +640,31 @@
         "path": "tools/controller/SDL2.dll",
         "sha256": "d6c3e29884d1bf0d35ea10f5e39e4fd4ac1681dc5c7e6eaa792fa78c79c2506b",
         "size": 1586176,
-        "packedSize": 628680
+        "packedSize": 627413
       },
       {
         "path": "tools/CursorFallback.cs",
         "sha256": "607e3fb62a56b5855ee31e21c8136315f3c912af34b7f18cb682fd25d31d0531",
         "size": 3820,
-        "packedSize": 1409
+        "packedSize": 1408
       },
       {
         "path": "tools/CursorFallback.exe",
         "sha256": "63bb5ae93bf07b74413e0946ab2f1f89855a7d42c073cecf6608f6795c80d8a0",
         "size": 7168,
-        "packedSize": 3429
+        "packedSize": 3421
       },
       {
         "path": "tools/DisplayWindow.exe",
         "sha256": "1791acd66432d00e263d9177a06b9e3f16efe46c8492a7094830a3b3c8d528a7",
         "size": 15872,
-        "packedSize": 7405
+        "packedSize": 7404
       },
       {
         "path": "tools/ExplorerLauncher.exe",
         "sha256": "1061f548e31548ae48800d845698b33cf0e7aa7bde3e29e8e42b7896d56c2a34",
         "size": 11776,
-        "packedSize": 5788
+        "packedSize": 5782
       },
       {
         "path": "tools/NetworkStats.exe",
@@ -652,55 +676,55 @@
         "path": "tools/PickApplication.exe",
         "sha256": "e5afe14d8a68e626b71cf7ee9390a70402a74ce60f94c2f0b05fb03c4c59c7e1",
         "size": 6656,
-        "packedSize": 3098
+        "packedSize": 3094
       },
       {
         "path": "tools/recorder/avcodec-63.dll",
         "sha256": "1574351a2a2bf8d97a365a20292cc2e8fd9a951da366f9bed12573ba33b74e25",
         "size": 91137024,
-        "packedSize": 38857134
+        "packedSize": 38800529
       },
       {
         "path": "tools/recorder/avdevice-63.dll",
         "sha256": "6e326323cebaccf082b86e72478723cfa6eabab719dfb080a6c7db1733ffa9c7",
         "size": 4948480,
-        "packedSize": 1904902
+        "packedSize": 1901061
       },
       {
         "path": "tools/recorder/avfilter-12.dll",
         "sha256": "fc6ab3d3711e4a1236c1420b2c39c52149b2c57251a875b2ee420a921974a1d5",
         "size": 31540736,
-        "packedSize": 13451122
+        "packedSize": 13429501
       },
       {
         "path": "tools/recorder/avformat-63.dll",
         "sha256": "e3b1f52b739b762815c40926c7bcf629cf42bdf495bd4c8c3fe0b83c0ea0e63c",
         "size": 22770176,
-        "packedSize": 10539585
+        "packedSize": 10521334
       },
       {
         "path": "tools/recorder/avutil-61.dll",
         "sha256": "4cdc6e4baa8e979609e4710ad0ff8b594f07f7ba730501d0b5e117bd39ddbe59",
         "size": 3016704,
-        "packedSize": 1191650
+        "packedSize": 1189470
       },
       {
         "path": "tools/recorder/FFMPEG-LICENSE.txt",
         "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
         "size": 7651,
-        "packedSize": 2605
+        "packedSize": 2603
       },
       {
         "path": "tools/recorder/ffmpeg.exe",
         "sha256": "91e7d5b216a896b0aec190a1e1b5f1a46590c6026294f735e0c40a1b82f311c0",
         "size": 540160,
-        "packedSize": 268757
+        "packedSize": 268459
       },
       {
         "path": "tools/recorder/ffprobe.exe",
         "sha256": "82abe5025645127c2688bf6cae003bc38c639e62b4f2d4294061843547bbdd67",
         "size": 229888,
-        "packedSize": 104216
+        "packedSize": 104096
       },
       {
         "path": "tools/recorder/NAUDIO-LICENSE.txt",
@@ -712,25 +736,25 @@
         "path": "tools/recorder/NAudio.Core.dll",
         "sha256": "fcf493fc47a2f478a65303886b975fbdbf714cbb1f2d79f7fce97e4bb16b01a8",
         "size": 187904,
-        "packedSize": 82859
+        "packedSize": 82806
       },
       {
         "path": "tools/recorder/NAudio.Wasapi.dll",
         "sha256": "618ef0e49d64e7a66dfe64bbf6ae81705b9d9683d8a9f321e5c3024d666bdf82",
         "size": 179200,
-        "packedSize": 78472
+        "packedSize": 78338
       },
       {
         "path": "tools/recorder/swresample-7.dll",
         "sha256": "e17f954cb635a7f68349fe316da22604937c288b2271414c33f0bfdac42a9ae9",
         "size": 734720,
-        "packedSize": 343765
+        "packedSize": 343562
       },
       {
         "path": "tools/recorder/swscale-10.dll",
         "sha256": "485db242b860767199cb27014ed36bb10bd34dae65996a159e7c4a574e31a9aa",
         "size": 2332160,
-        "packedSize": 817852
+        "packedSize": 816489
       },
       {
         "path": "tools/recorder/THIRD-PARTY.txt",
@@ -742,13 +766,13 @@
         "path": "tools/recorder/WindowReplay.cs",
         "sha256": "20dc2dacd44045319a50ee95352b95dbfe7f27aa4ba64415fb4a4cf600b1a742",
         "size": 8822,
-        "packedSize": 3447
+        "packedSize": 3448
       },
       {
         "path": "tools/recorder/WindowReplay.exe",
         "sha256": "c301ca80f32d878e3dac14ce1abafcee703f88d4b8adc49f6e20477ed0d1af0b",
         "size": 20480,
-        "packedSize": 9638
+        "packedSize": 9629
       },
       {
         "path": "tools/ReplayNotice.cs",
@@ -760,19 +784,19 @@
         "path": "tools/ReplayNotice.exe",
         "sha256": "a32164c47ac1e6fbc3bbb68128c80cda7eef4252c2ac83b129444425365befc5",
         "size": 5632,
-        "packedSize": 2587
+        "packedSize": 2581
       },
       {
         "path": "tools/Resolution.exe",
         "sha256": "55c1f60ed4d81746ab055a8c7288384d9c4488d32630eff62a8082e2168bdf26",
         "size": 11776,
-        "packedSize": 5500
+        "packedSize": 5497
       },
       {
         "path": "tools/SettingsLauncher.exe",
         "sha256": "959fee2f62ecf5f89fd4a1d2262aa0d905e66b45a480eb0f236d970e382bc0f4",
         "size": 13312,
-        "packedSize": 6471
+        "packedSize": 6468
       },
       {
         "path": "tools/SpudPilotForeground.cs",
@@ -784,49 +808,67 @@
         "path": "tools/SpudPilotForeground.exe",
         "sha256": "72988621c3dfe31ac63ed0e597d3ba651580651548fb7b60e5beaa33dcecf911",
         "size": 4608,
-        "packedSize": 1954
+        "packedSize": 1946
       },
       {
         "path": "tools/SpudPilotRecall.cs",
-        "sha256": "7f4e0130fbeb1057e10d619bbb5d78a4c539c9b6f8aae1a71d8200d58cf9d108",
-        "size": 5094,
-        "packedSize": 1629
+        "sha256": "d35f1c8d8d86b3c45884ab30c4152b903305aa7f2d2d51fe9268fd7efafaaacd",
+        "size": 5443,
+        "packedSize": 1679
       },
       {
         "path": "tools/SpudPilotRecall.exe",
-        "sha256": "7dc114df638d860256da38eb39ef9b1d6c873581f4b0ebb05a28546c8d19970d",
-        "size": 7680,
-        "packedSize": 3585
+        "sha256": "6cf300b119cd99f607cc5a1c688bd6f6195fd8bafc77f4fd57b4b5ba221bc9b2",
+        "size": 8192,
+        "packedSize": 3656
       },
       {
         "path": "tools/StoreAppLauncher.exe",
         "sha256": "d85ef63f263896c9b41001022b739a8589b7379d9ddbdfd1c8dc4d065f0fa529",
         "size": 11264,
-        "packedSize": 5818
+        "packedSize": 5816
       },
       {
         "path": "tools/TaskbarIcon.exe",
         "sha256": "fef1fe0c365b59e8f4b6076c7e42842a3e91b452d7b31fbf6e0d8ad4b1db4dab",
         "size": 8704,
-        "packedSize": 4278
+        "packedSize": 4276
       },
       {
         "path": "tools/VideoLauncher.cs",
         "sha256": "1688dd5d87ad4796c74fc118865e84d4eec966aa73bb7c309d0a13c45e4835b2",
         "size": 6748,
-        "packedSize": 2273
+        "packedSize": 2265
       },
       {
         "path": "tools/VideoLauncher.exe",
         "sha256": "ced11913197934ea9d5f1c7c2c9ab32faa85937eb80a8408abbf580561f63141",
         "size": 10240,
-        "packedSize": 4875
+        "packedSize": 4871
+      },
+      {
+        "path": "tools/WindowCards.cs",
+        "sha256": "1f07a86a53a4c4f7e129298c72fa55968444e17069996c81d22ffa03f6f881b0",
+        "size": 7292,
+        "packedSize": 2455
+      },
+      {
+        "path": "tools/WindowCards.exe",
+        "sha256": "2b3f5e045040f0f4d3f86995db9dcad375ff26752f9c7a49b712ab07f56866f1",
+        "size": 13824,
+        "packedSize": 6567
+      },
+      {
+        "path": "trigger-mouse.cjs",
+        "sha256": "11ef111c096385161d39f650352f1ed5d6d70d7eda22521277011aa50cfbce2e",
+        "size": 558,
+        "packedSize": 362
       },
       {
         "path": "update-files.cjs",
         "sha256": "b8dfe23bca4cc672b796f474ca9c4595fddec6130c54d2b4b9205440913420cf",
         "size": 3513,
-        "packedSize": 1506
+        "packedSize": 1507
       },
       {
         "path": "update-link.cjs",
@@ -850,13 +892,13 @@
         "path": "updates.cjs",
         "sha256": "d6d2e4414729a678de908cebd592138d8ab05ebd2ad720c11911e6de086de595",
         "size": 7598,
-        "packedSize": 2938
+        "packedSize": 2936
       },
       {
         "path": "version.json",
-        "sha256": "1e4293659f71f58d3e945ff4988804f753e7f1a60670d433137d1a175f233545",
-        "size": 161,
-        "packedSize": 136
+        "sha256": "d1c8d2d27a5b678d55344564dfe9a9b71ed2679e1b17d4844fb93335d763680d",
+        "size": 163,
+        "packedSize": 138
       },
       {
         "path": "video-captures.cjs",
@@ -884,15 +926,15 @@
       },
       {
         "path": "WindowsStartup.ps1",
-        "sha256": "dc3e7fafca482ccf82e393e304fe1ed7654ef3358d7d7f982c19698ce48ce76e",
-        "size": 3465,
-        "packedSize": 1312
+        "sha256": "e539c3f8d55b4c23584b5ec9b2b5398d5ff92a54fbf6ff62108f61e9ab995972",
+        "size": 5582,
+        "packedSize": 1866
       },
       {
         "path": "SHA256SUMS.json",
-        "sha256": "9ab73791e9a2b19a0edc659de6febd0595131606808bba3cbb0ae8aee44b94ba",
-        "size": 14042,
-        "packedSize": 6793
+        "sha256": "6bef3c2d0a7dd71902c2688529444d5c17615eb7aaa131e945f73ff62e3b84d9",
+        "size": 14679,
+        "packedSize": 7102
       }
     ]
   }
