@@ -1,10 +1,10 @@
 {
   "release": {
     "product": "SpudPilot",
-    "version": "1.2.110",
-    "size": 129368609,
-    "sha256": "5b0f0534820f59bc674ee3cf2a4c0f882248231d8ac5faa83af26244b1986d1e",
-    "notes": "Adds Help & controls in Settings, improves Bluetooth Share/Create hold recovery, and opens selected Apps and Media windows with Cross. Includes the latest Steam artwork, achievements, display scaling and controller navigation improvements. Updates download only changed or missing files and preserve activation and settings.",
+    "version": "1.2.111",
+    "size": 129368668,
+    "sha256": "69a0c026e3378250790442c2c34569f94dc6e3cb7df4b4d5f222e4abe047786b",
+    "notes": "Reduces the System panel by 14% on 1440p and 4K displays while preserving Steam artwork size and placement. The 1080p layout is unchanged. Updates preserve activation and settings.",
     "files": [
       {
         "path": "activation-store.cjs",
@@ -134,9 +134,9 @@
       },
       {
         "path": "game-preview.js",
-        "sha256": "c64113fb7e3be03018519982b8b118907ba6d46b34f0dd85a200ddf95cfa6c87",
-        "size": 4588,
-        "packedSize": 1763
+        "sha256": "726b75e9cfe31db7c074ebd9bb30c201b2c4ceb95a28724a9ec348bbcd19e9ae",
+        "size": 4688,
+        "packedSize": 1789
       },
       {
         "path": "games/spudpilot/assets/blaster.js",
@@ -374,9 +374,9 @@
       },
       {
         "path": "layout-scale.js",
-        "sha256": "28d191a6797556975620dfb4f93c1afc473c41abc916c44f0046e8007e187581",
-        "size": 533,
-        "packedSize": 262
+        "sha256": "113f4bdad3ea6328cdd8e8958c301cac7996729cb91409773f3d1e183ea0fbad",
+        "size": 603,
+        "packedSize": 291
       },
       {
         "path": "library-scan.cjs",
@@ -464,9 +464,9 @@
       },
       {
         "path": "RELEASE-NOTES.txt",
-        "sha256": "87b4688691befde6df78ab2020c63bd61c209d279f2d909b3fa60a3ca6954a6b",
-        "size": 196,
-        "packedSize": 157
+        "sha256": "129e24baac995cd79e96f5937d4b60b6407368930c87962381aeeaba404b9970",
+        "size": 112,
+        "packedSize": 114
       },
       {
         "path": "replay-recorder.cjs",
@@ -548,7 +548,7 @@
       },
       {
         "path": "START-HERE.txt",
-        "sha256": "d2573d3ea4cb7a26011aa877294e3ce018a544494b8ce71b9f8f5901ca6962a2",
+        "sha256": "7be0cfff5780a6b80fdae1f09a793048d3239ee4cd0dd5c60f4b12b6a40c5c80",
         "size": 6527,
         "packedSize": 3080
       },
@@ -572,9 +572,9 @@
       },
       {
         "path": "style.css",
-        "sha256": "14a6e2d486409efd63140f4cb81668d9c77a667ec5459335d64a777e359a6817",
-        "size": 44994,
-        "packedSize": 11150
+        "sha256": "1ac79465c599555908b80bdfa812aef39dee6d3414bd61835c2b79fdc003c00e",
+        "size": 45147,
+        "packedSize": 11206
       },
       {
         "path": "theme-init.js",
@@ -896,9 +896,9 @@
       },
       {
         "path": "version.json",
-        "sha256": "d1c8d2d27a5b678d55344564dfe9a9b71ed2679e1b17d4844fb93335d763680d",
+        "sha256": "11e1c68a8c1e12b0c809fd6487ec9755319a4c0fe87ebf5de67245e7aadac552",
         "size": 163,
-        "packedSize": 138
+        "packedSize": 137
       },
       {
         "path": "video-captures.cjs",
@@ -932,9 +932,9 @@
       },
       {
         "path": "SHA256SUMS.json",
-        "sha256": "6bef3c2d0a7dd71902c2688529444d5c17615eb7aaa131e945f73ff62e3b84d9",
+        "sha256": "12222d2faab223e8cd208a546609b40ddd09a7b7ec2f1ff23086cd5a44a18cae",
         "size": 14679,
-        "packedSize": 7102
+        "packedSize": 7101
       }
     ]
   }
