@@ -1,10 +1,10 @@
 {
   "release": {
     "product": "SpudPilot",
-    "version": "1.2.112",
-    "size": 129368542,
-    "sha256": "8c583620aa284cc35f28804365934b14174172eb4843e0416972073a12c77558",
-    "notes": "Removes the System panel and Settings icon. Check for updates and Power saver now sit at the right edge, aligned with R1, without moving the centered section tabs. Open Settings with the controller OPTIONS button or the O keyboard key.",
+    "version": "1.2.123",
+    "size": 129368723,
+    "sha256": "cfd662c28ac953b51025e6f8ff48802352234378ca67a850997170217ec7d5c5",
+    "notes": "Larger and wider Steam artwork, a transparent achievement overlay without its heading, refined achievement placement, and removal of the library paging arrows and counter. Includes all changes since 1.2.112. Updates preserve activation and settings.",
     "files": [
       {
         "path": "activation-store.cjs",
@@ -26,9 +26,9 @@
       },
       {
         "path": "app.js",
-        "sha256": "6db7d6eccadac9951fbd5081ffe0ceceda6b162568f6002176d5abe503f240a9",
-        "size": 47071,
-        "packedSize": 13355
+        "sha256": "3f4481f902da6c04623f75155cc48ac4f7a5a97fd21335b67e4f63e6b738c15c",
+        "size": 47058,
+        "packedSize": 13351
       },
       {
         "path": "appearance.cjs",
@@ -134,9 +134,9 @@
       },
       {
         "path": "game-preview.js",
-        "sha256": "1db13b0b281e5d0d66b56d0634da60acad5a366c3879e7928efc25d75f332550",
-        "size": 4550,
-        "packedSize": 1765
+        "sha256": "387d3edba9c8c436e586fd13bf17c7194d042516f752c196147cfea3afe575de",
+        "size": 4941,
+        "packedSize": 1839
       },
       {
         "path": "games/spudpilot/assets/blaster.js",
@@ -356,9 +356,9 @@
       },
       {
         "path": "index.html",
-        "sha256": "7a7f93114fa92019da4d80bad92c36c4360555a8b36c36cf2a3c1930c7521044",
-        "size": 19934,
-        "packedSize": 5436
+        "sha256": "095535f1d6427e2f69178136f807822a802fe2db26eb793e4110d5098d525760",
+        "size": 19935,
+        "packedSize": 5435
       },
       {
         "path": "installed-apps.cjs",
@@ -464,9 +464,9 @@
       },
       {
         "path": "RELEASE-NOTES.txt",
-        "sha256": "3365406b5ffbfaf394a6131d794577aad97e354212cccf97b67f7dd6a94dac1f",
-        "size": 155,
-        "packedSize": 142
+        "sha256": "c851b7655576676ba2f36d8aa1e0e2f7ac1363f82383193f311f15e8535a7c9a",
+        "size": 112,
+        "packedSize": 110
       },
       {
         "path": "replay-recorder.cjs",
@@ -548,7 +548,7 @@
       },
       {
         "path": "START-HERE.txt",
-        "sha256": "e01c3aef59d82003ef540a9a32d014253d9393fe1d426dc5404a7bcae8c19a3d",
+        "sha256": "17396838a84294ef6362d19b99fbd3a438af6c51b5c53d46b64a732a19f05f8e",
         "size": 6527,
         "packedSize": 3080
       },
@@ -572,9 +572,9 @@
       },
       {
         "path": "style.css",
-        "sha256": "158893eba13f02d9ea1d40c3340df62f5df05848ec5aba3748bd3ed89195a772",
-        "size": 45776,
-        "packedSize": 11333
+        "sha256": "764f332b43a8dac4d3dc7803de9507c989947c878b446c80d9a2849566ce9efd",
+        "size": 46178,
+        "packedSize": 11462
       },
       {
         "path": "theme-init.js",
@@ -896,9 +896,9 @@
       },
       {
         "path": "version.json",
-        "sha256": "1d34a9649772357ade6e909e9f1a055e32c48fd1104378cba28a3d9bb860a219",
+        "sha256": "3d1c205862ce4dbea5d8c2c512682583ec5f7320affa1f3cc87a7cb46abd7166",
         "size": 163,
-        "packedSize": 136
+        "packedSize": 137
       },
       {
         "path": "video-captures.cjs",
@@ -932,9 +932,9 @@
       },
       {
         "path": "SHA256SUMS.json",
-        "sha256": "38d62791c0b313beb56904d8245506a6b85666b38409b12d58d68f86457801e6",
+        "sha256": "32f323e736a01721683a0ae7f90e9d6a81fa15ee946558527111a89d68fc7d7f",
         "size": 14679,
-        "packedSize": 7098
+        "packedSize": 7104
       }
     ]
   }
