@@ -1,10 +1,10 @@
 {
   "release": {
     "product": "SpudPilot",
-    "version": "1.2.123",
-    "size": 129368723,
-    "sha256": "cfd662c28ac953b51025e6f8ff48802352234378ca67a850997170217ec7d5c5",
-    "notes": "Larger and wider Steam artwork, a transparent achievement overlay without its heading, refined achievement placement, and removal of the library paging arrows and counter. Includes all changes since 1.2.112. Updates preserve activation and settings.",
+    "version": "1.2.124",
+    "size": 129369885,
+    "sha256": "96141d98d318beeee7e6f5c1c7a89237b03e426554219bc0cf82c0b6e376bed7",
+    "notes": "Updates the bundled SpudPilot game with slowly drifting and rotating asteroids, more detailed cratered surfaces and mineral shading, subtle space dust and smooth chase-camera movement. Preserves controls, speed progression, skins, achievements, activation and settings.",
     "files": [
       {
         "path": "activation-store.cjs",
@@ -182,9 +182,9 @@
       },
       {
         "path": "games/spudpilot/game.js",
-        "sha256": "03fa69fd40915737668f8f5e73a807d32e0b70776d93e5615157ee071e8f222d",
-        "size": 46323,
-        "packedSize": 16170
+        "sha256": "31d0b5b65208ba15b40bf24f789f383cc9ee8e20837e90a37754ac46b2d814af",
+        "size": 49808,
+        "packedSize": 17279
       },
       {
         "path": "games/spudpilot/GUIDE.md",
@@ -464,9 +464,9 @@
       },
       {
         "path": "RELEASE-NOTES.txt",
-        "sha256": "c851b7655576676ba2f36d8aa1e0e2f7ac1363f82383193f311f15e8535a7c9a",
-        "size": 112,
-        "packedSize": 110
+        "sha256": "0842fe4e0c4292cfcf319923e21612eb7dfc5a36ca90d0a6b4d5e2fc829691a3",
+        "size": 181,
+        "packedSize": 151
       },
       {
         "path": "replay-recorder.cjs",
@@ -548,7 +548,7 @@
       },
       {
         "path": "START-HERE.txt",
-        "sha256": "17396838a84294ef6362d19b99fbd3a438af6c51b5c53d46b64a732a19f05f8e",
+        "sha256": "e4865c5aec025a9621234350285d71ab33fb3ba37fbcf3cb74a1bf354b63dc6b",
         "size": 6527,
         "packedSize": 3080
       },
@@ -896,7 +896,7 @@
       },
       {
         "path": "version.json",
-        "sha256": "3d1c205862ce4dbea5d8c2c512682583ec5f7320affa1f3cc87a7cb46abd7166",
+        "sha256": "77ac37138c1606e945927d2d3f0847d8d188b5b36287c1f81eacb75331a82b25",
         "size": 163,
         "packedSize": 137
       },
@@ -932,9 +932,9 @@
       },
       {
         "path": "SHA256SUMS.json",
-        "sha256": "32f323e736a01721683a0ae7f90e9d6a81fa15ee946558527111a89d68fc7d7f",
+        "sha256": "2455ef41cdb7c6577657b86676f01085b33061259383ab2835ea020475683e38",
         "size": 14679,
-        "packedSize": 7104
+        "packedSize": 7107
       }
     ]
   }
